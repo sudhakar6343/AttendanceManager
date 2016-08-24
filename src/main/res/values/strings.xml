@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AM</string>
+    <string name="present_count">Present</string>
+    <string name="absent_count">Absent</string>
+    <string name="course_name">Course</string>
+    <string name="save_button">Save</string>
+    <string name="course_code">Code</string>
+    <string name="update_button">update</string>
+</resources>

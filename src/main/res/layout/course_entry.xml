@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="right"
+                android:layout_marginRight="20dp"
+                android:text="@string/course_name"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:hint="Course name"
+                android:id="@+id/course_name"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="right"
+                android:layout_marginRight="20dp"
+                android:text="@string/present_count"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/present_count"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:hint="No.of Classes Present"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_marginRight="20dp"
+                android:layout_width="0dp"
+                android:text="@string/absent_count"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/absent_count"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:hint="No.of classes absent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/save_button"
+            android:text="@string/save_button"/>
+    </LinearLayout>
+
+</ScrollView>
